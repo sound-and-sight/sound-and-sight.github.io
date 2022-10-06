@@ -64,10 +64,11 @@ section {
   --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
- 
-    --bs-body-font-family:'Plastique-Regular';
 
-  src: url("../assets/fonts/Plastique-Regular.ttf");
+    --bs-body-font-family:'Plastique-Regular';
+  src: url("../assets/fonts/Plastique_W-Regular.woff2");
+
+
   --bs-body-font-size: 1rem;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
@@ -102,8 +103,8 @@ body {
 
 .site-footer
 {
-  background-color:rgba(156, 0, 14, 0.9);
-  padding:45px 0 20px;
+  background-color:rgba(156, 0, 14, 0);
+  padding:10px 0 20px;
   font-size:15px;
   line-height:24px;
   color:#fff;
@@ -288,9 +289,12 @@ hr:not([size]) {
 h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   margin-top: 0;
   margin-bottom: 0.5rem;
+
       font-family: 'Plastique-Regular';
 
-  src: url("../assets/fonts/Plastique-Regular.ttf");
+  src: url("../assets/fonts/Plastique_W-Regular.woff2");
+
+
   font-weight: 700;
   line-height: 1.2;
       font-size: 14pt;
@@ -1345,7 +1349,7 @@ progress {
 
   .row-cols-md-6 > * {
     flex: 0 0 auto;
-    width: 16.6666666667%;
+    width: 18.6666666667%;
   }
 
   .col-md-auto {
@@ -1380,7 +1384,7 @@ progress {
 
   .col-md-6 {
     flex: 0 0 auto;
-    width: 30%;
+    width: 70%;
   }
 
   .col-md-7 {
@@ -4257,7 +4261,7 @@ textarea.form-control-lg {
 
       font-family: 'Plastique-Regular';
 
-  src: url("../assets/fonts/Plastique-Regular.ttf");
+  src: url("../assets/fonts/Plastique_W-Regular.woff2");
   letter-spacing: .5rem!important;
 
   padding-bottom: 0.3125rem;
@@ -5977,7 +5981,7 @@ textarea.form-control-lg {
 
       font-family: 'Plastique-Regular';
 
-  src: url("../assets/fonts/Plastique-Regular.ttf");  
+  src: url("../assets/fonts/Plastique_W-Regular.woff2");  
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -6081,7 +6085,7 @@ textarea.form-control-lg {
   max-width: 276px;
       font-family: 'Plastique-Regular';
 
-  src: url("../assets/fonts/Plastique-Regular.ttf");  font-style: normal;
+  src: url("../assets/fonts/Plastique_W-Regular.woff2");  font-style: normal;
   font-weight: 400;
   line-height: 1.5;
   text-align: left;
@@ -11567,7 +11571,7 @@ font-size: 4rem!important;
 
       font-family: 'Plastique-Regular';
 
-  src: url("../assets/fonts/Plastique-Regular.ttf");
+  src: url("../assets/fonts/Plastique_W-Regular.woff2");
 /*font-family: 'Oswald', sans-serif;*/
 
 }
@@ -11646,7 +11650,7 @@ background: linear-gradient(90deg, rgba(0,55,136,1) 0%, rgba(0,55,136,0.5) 0%, r
 
       font-family: 'Plastique-Regular';
 
-  src: url("../assets/fonts/Plastique-Regular.ttf");
+  src: url("../assets/fonts/Plastique_W-Regular.woff2");
 
 /*font-family: 'Oswald', sans-serif;*/
 
@@ -11695,7 +11699,7 @@ background: linear-gradient(90deg, rgba(0,55,136,1) 0%, rgba(0,55,136,0.5) 0%, r
   letter-spacing: .9rem!important;
       font-family: 'Plastique-Regular';
 
-  src: url("../assets/fonts/Plastique-Regular.ttf");
+  src: url("../assets/fonts/Plastique_W-Regular.woff2");
 }
 
 .navbar-nav {
@@ -11785,7 +11789,7 @@ background: linear-gradient(90deg, rgba(0,55,136,1) 0%, rgba(0,55,136,0.5) 0%, r
   letter-spacing: .9rem!important;
       font-family: 'Plastique-Regular';
 
-  src: url("../assets/fonts/Plastique-Regular.ttf");
+  src: url("../assets/fonts/Plastique_W-Regular.woff2");
 }
 
 .masthead .masthead-content p {
@@ -11832,7 +11836,7 @@ background: linear-gradient(90deg, rgba(0,55,136,1) 0%, rgba(0,55,136,0.5) 0%, r
   letter-spacing: .9rem!important;
       font-family: 'Plastique-Regular';
 
-  src: url("../assets/fonts/Plastique-Regular.ttf");
+  src: url("../assets/fonts/Plastique_W-Regular.woff2");
 }
 
 /* tres - es about 365 Arts */
@@ -12029,6 +12033,100 @@ font-family: 'Work Sans', sans-serif;
     width: 100vw;
   }
 }
+
+
+/* pie - es about The Shed */
+
+.pie {
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pie:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  /*background-color: rgba(173, 0, 8, 0.18);*/
+background: rgb(136,0,0, 0);
+background: linear-gradient(0deg, rgba(156, 0, 14, 0.9) 33%, rgba(156, 0, 14, 0) 100%);
+
+}
+.pie .pie-content {
+  position: relative;
+  max-width: 45rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+    z-index: 3;
+
+}
+.pie .pie-content h1, .pie .pie-content .h1 {
+  font-size: 4rem;
+}
+.pie .pie-content p {
+    font-size: 12pt;
+font-family: 'Work Sans', sans-serif;
+}
+.pie .pie-content p strong {
+  font-weight: 700;
+}
+.pie .pie-content .input-group-newsletter input {
+  height: auto;
+  width: 100%;
+  font-size: 1rem;
+  padding: 1rem;
+}
+.pie .pie-content .input-group-newsletter button {
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: calc(1rem + 2px);
+}
+
+
+@media (min-width: 992px) {
+  .pie {
+    height: 100%;
+
+    width: 100vw;
+    padding-bottom: 0;
+  }
+  .pie:before {
+    /*transform: skewX(-9deg);*/
+    transform-origin: top right;
+  }
+  .pie .pie-content {
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 2rem;
+    padding-right: 9rem;
+            z-index: 3;
+                color: white;
+
+  }
+  .pie .pie-content h1, .pie .pie-content .h1 {
+    font-size: 3.5rem;
+  }
+.pie .pie-content p {
+    font-size: 12.6pt;
+    line-height: 1.75;
+    font-family: 'Work Sans', sans-serif;
+}
+
+@media (min-width: 1200px) {
+  .pie {
+    width: 100vw;
+  }
+}
+
 
 
 /* cinco - es Production */
