@@ -65,9 +65,8 @@ section {
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
 
-    --bs-body-font-family:'plastique-regular-webfont';
-  src: url("../css/fonts/plastique-regular-webfont.woff2");
 
+       --bs-body-font-family: 'plastiqueregular';
 
   --bs-body-font-size: 1rem;
   --bs-body-font-weight: 400;
@@ -4267,9 +4266,8 @@ textarea.form-control-lg {
 .navbar-brand {
   margin-top: 8rem!important;
 
-      font-family: 'plastique-regular-webfont';
+            font-family: 'plastiqueregular';
 
-  src: url("../css/fonts/plastique-regular-webfont.woff2");
   letter-spacing: .5rem!important;
 
   padding-bottom: 0.3125rem;
@@ -5987,9 +5985,8 @@ textarea.form-control-lg {
   display: block;
   margin: 0;
 
-      font-family: 'plastique-regular-webfont';
+       font-family: 'plastiqueregular';
 
-  src: url("../css/fonts/plastique-regular-webfont.woff2");  
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -6091,9 +6088,8 @@ textarea.form-control-lg {
   z-index: 1070;
   display: block;
   max-width: 276px;
-      font-family: 'plastique-regular-webfont';
-
-  src: url("../css/fonts/plastique-regular-webfont.woff2");  font-style: normal;
+       font-family: 'plastiqueregular';
+font-style: normal;
   font-weight: 400;
   line-height: 1.5;
   text-align: left;
@@ -11577,9 +11573,8 @@ body:before {
 font-size: 4rem!important;
   letter-spacing: .9rem!important;
 
-      font-family: 'plastique-regular-webfont';
+       font-family: 'plastiqueregular';
 
-  src: url("../css/fonts/plastique-regular-webfont.woff2");
 /*font-family: 'Oswald', sans-serif;*/
 
 }
@@ -11656,9 +11651,8 @@ background: linear-gradient(90deg, rgba(0,55,136,1) 0%, rgba(0,55,136,0.5) 0%, r
   font-size: 4rem!important;
   letter-spacing: .9rem!important;
 
-      font-family: 'plastique-regular-webfont';
+       font-family: 'plastiqueregular';
 
-  src: url("../css/fonts/plastique-regular-webfont.woff2");
 
 /*font-family: 'Oswald', sans-serif;*/
 
@@ -11705,9 +11699,8 @@ background: linear-gradient(90deg, rgba(0,55,136,1) 0%, rgba(0,55,136,0.5) 0%, r
   .masthead .masthead-content h1, .masthead .masthead-content .h1 {
   font-size: 4rem!important;
   letter-spacing: .9rem!important;
-      font-family: 'plastique-regular-webfont';
+       font-family: 'plastiqueregular';
 
-  src: url("../css/fonts/plastique-regular-webfont.woff2");
 }
 
 .navbar-nav {
@@ -11795,9 +11788,8 @@ background: linear-gradient(90deg, rgba(0,55,136,1) 0%, rgba(0,55,136,0.5) 0%, r
 .masthead .masthead-content h1, .masthead .masthead-content .h1 {
   font-size: 4rem!important;
   letter-spacing: .9rem!important;
-      font-family: 'plastique-regular-webfont';
+       font-family: 'plastiqueregular';
 
-  src: url("../css/fonts/plastique-regular-webfont.woff2");
 }
 
 .masthead .masthead-content p {
@@ -11842,9 +11834,8 @@ background: linear-gradient(90deg, rgba(0,55,136,1) 0%, rgba(0,55,136,0.5) 0%, r
   .masthead .masthead-content h1, .masthead .masthead-content .h1 {
   font-size: 4rem!important;
   letter-spacing: .9rem!important;
-      font-family: 'plastique-regular-webfont';
+       font-family: 'plastiqueregular';
 
-  src: url("../css/fonts/plastique-regular-webfont.woff2");
 }
 
 /* tres - es about 365 Arts */
