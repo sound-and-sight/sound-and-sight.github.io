@@ -100,6 +100,10 @@ body {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
+p3 {
+  color: #d5d5d5;
+}
+
 
 @font-face {
     font-family: 'plastiqueregular';
@@ -117,6 +121,7 @@ body {
   font-size:15px;
   line-height:24px;
   color:#fff;
+  margin-bottom: 80px;
 }
 .site-footer hr
 {
@@ -877,7 +882,7 @@ progress {
 }
 @media (min-width: 1400px) {
   .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
-    max-width: 1320px;
+    max-width: 100%;
   }
 }
 .row {
